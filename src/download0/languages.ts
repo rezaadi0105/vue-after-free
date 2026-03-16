@@ -2,21 +2,21 @@
 // Detected locale: jsmaf.locale
 
 export const lang: Record<string, string> = {
-  jailbreak: 'Jailbreak',
-  payloadMenu: 'Payload Menu',
-  config: 'Config',
-  exit: 'Exit',
-  autoLapse: 'Auto Lapse',
-  autoPoop: 'Auto Poop',
-  autoClose: 'Auto Close',
-  music: 'Music',
-  jbBehavior: 'JB Behavior',
-  jbBehaviorAuto: 'Auto Detect',
+  jailbreak: 'Buka Kunci',
+  payloadMenu: 'Daftar Payload',
+  config: 'Konfigurasi',
+  exit: 'Keluar',
+  autoLapse: 'Otomatis Lapse',
+  autoPoop: 'Otomatis Poop',
+  autoClose: 'Tutup Otomatis',
+  music: 'Musik',
+  jbBehavior: 'Pilih Buka',
+  jbBehaviorAuto: 'Otomatis Deteksi',
   jbBehaviorNetctrl: 'NetControl',
   jbBehaviorLapse: 'Lapse',
-  theme: 'Theme',
-  xToGoBack: 'X to go back',
-  oToGoBack: 'O to go back'
+  theme: 'Tema',
+  xToGoBack: 'X Untuk Kembali',
+  oToGoBack: 'O Untuk Kembali'
 }
 
 export let useImageText = false

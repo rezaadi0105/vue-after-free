@@ -557,7 +557,7 @@ export function binloader_init () {
 
           if (closeDelay > 0) {
             log('CONFIG.autoclose enabled - closed after ' + (closeDelay / 1000) + ' seconds...')
-            utils.notify('Vue closed after ' + (closeDelay / 1000) + ' seconds...')
+            utils.notify('MOD By REZA, tertutup setelah ' + (closeDelay / 1000) + ' detik...')
             const killId = jsmaf.setInterval(function () {
               jsmaf.clearInterval(killId)
               log('Sending SIGKILL to PID ' + pid_num)

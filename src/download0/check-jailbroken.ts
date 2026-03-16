@@ -23,6 +23,6 @@ export function checkJailbroken (): boolean {
   log('UID after setuid: ' + uidAfterVal)
 
   const jailbroken = uidAfterVal === 0
-  log(jailbroken ? 'Already jailbroken' : 'Not jailbroken')
+  log(jailbroken ? 'Kunci sudah terbuka' : 'Not jailbroken')
   return jailbroken
 }
