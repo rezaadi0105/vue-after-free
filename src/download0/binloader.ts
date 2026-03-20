@@ -113,9 +113,23 @@ export function binloader_init () {
     '/mnt/usb2/payload.bin.bin', // yes we have to do this 😅
     '/mnt/usb3/payload.bin.bin',
     '/mnt/usb4/payload.bin.bin',
-    '/mnt/sandbox/download/CUSA00960/payload.bin'
+    '/mnt/sandbox/download/CUSA00960/payload.bin',
+    '/mnt/usb0/fan.bin',
+    '/mnt/usb1/fan.bin',
+    '/mnt/usb2/fan.bin',
+    '/mnt/usb3/fan.bin',
+    '/mnt/usb4/fan.bin',
+    '/mnt/usb0/fan.bin.bin',
+    '/mnt/usb1/fan.bin.bin',
+    '/mnt/usb2/fan.bin.bin', // yes we have to do this 😅
+    '/mnt/usb3/fan.bin.bin',
+    '/mnt/usb4/fan.bin.bin',
+    '/mnt/sandbox/download/CUSA00960/fan.bin'
   ]
-  const DATA_PAYLOAD_PATH = '/data/payload.bin'
+  const DATA_PAYLOAD_PATH = [
+    '/data/payload.bin',
+    '/data/fan.bin'
+  ]
 
   // S_ISREG macro check - file type is regular file
   const S_IFREG = 0x8000
